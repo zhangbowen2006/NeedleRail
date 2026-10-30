@@ -9,13 +9,13 @@
 //   "moonbitlang/x@0.4.6",
 // }
 
-name = "zhangbowen200602/needlerail"
+name = "zhangbowen2006/needlerail"
 
 version = "0.1.0"
 
 readme = "README.md"
 
-repository = ""
+repository = "https://github.com/zhangbowen2006/NeedleRail"
 
 license = "Apache-2.0"
 

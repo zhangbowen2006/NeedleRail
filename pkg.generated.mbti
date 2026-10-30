@@ -1,5 +1,5 @@
 // Generated using `moon info`, DON'T EDIT IT
-package "zhangbowen200602/needlerail"
+package "zhangbowen2006/needlerail"
 
 // Values
 pub fn compile(Array[Object], Int32, Int32, Int32) -> Result[Plan, String]

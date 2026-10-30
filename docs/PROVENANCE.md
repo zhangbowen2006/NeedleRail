@@ -1,6 +1,8 @@
 # 来源与身份
 
-参赛者为张博文，用户指定新 GitHub ID `zhangbowen200602`，旧账号为 [zhangbowen2006](https://github.com/zhangbowen2006)。更换账号不代表不同参赛者，不能重置报名次数。最终发布身份以实际核验登录为准。
+参赛者为张博文。最初提出的新 GitHub ID `zhangbowen200602` 经公共查询未能核验；2026-10-30 终端实际授权账号为 [zhangbowen2006](https://github.com/zhangbowen2006)，本人随后明确同意使用该旧账号发布并如实披露，因此本次实际发布身份是 zhangbowen2006，未换号规避报名次数。
+
+公开仓库为 [zhangbowen2006/NeedleRail](https://github.com/zhangbowen2006/NeedleRail)。首次推送前，将 14 个尚未公开的本地提交中预填的新账号作者标签纠正为实际账号，保持提交树、消息、时间与顺序；随后以正常新增提交记录命名空间和发布配置的变化，没有制造开发时长或合并旧项目历史。
 
 已读取旧项目 [AgentCanary](https://github.com/zhangbowen2006/AgentCanary) README，它是 AI 工具历史策略回放、审批与标签传播工具。NeedleRail 不依赖或复制其核心；没有查证 AgentCanary 被驳回，不作这种表述。用户提供的 WasmSlim、MoonGate、TideWeave 等初审案例仅作为风险输入，不复制代码再申报。
 
