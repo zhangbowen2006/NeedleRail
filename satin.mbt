@@ -33,13 +33,6 @@ pub fn satin(
   if left.length() > 512 || right.length() > 512 {
     return Err("satin rail vertex limit: 512")
   }
-  for i = 1; i < left.length(); i = i + 1 {
-    for j = 1; j < right.length(); j = j + 1 {
-      if intersects(left[i - 1], left[i], right[j - 1], right[j]) {
-        return Err("satin rails intersect or touch")
-      }
-    }
-  }
   if spacing < 3 || spacing > 1000 {
     return Err("satin spacing must be 3..1000")
   }
@@ -50,6 +43,25 @@ pub fn satin(
   match running(right, max_step) {
     Err(e) => return Err(e)
     Ok(_) => ()
+  }
+  for rail in [left, right] {
+    for i = 1; i < rail.length(); i = i + 1 {
+      if rail[i] == rail[i - 1] {
+        return Err("satin rail has a duplicate vertex")
+      }
+      for j = i + 2; j < rail.length(); j = j + 1 {
+        if intersects(rail[i - 1], rail[i], rail[j - 1], rail[j]) {
+          return Err("satin rail self-intersects")
+        }
+      }
+    }
+  }
+  for i = 1; i < left.length(); i = i + 1 {
+    for j = 1; j < right.length(); j = j + 1 {
+      if intersects(left[i - 1], left[i], right[j - 1], right[j]) {
+        return Err("satin rails intersect or touch")
+      }
+    }
   }
   let ll = rail_length(left)
   let rl = rail_length(right)

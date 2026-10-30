@@ -116,7 +116,7 @@ pub fn compile(
         moves.push({ position: span[i], kind: Stitch, thread, })
       }
       current = span[span.length() - 1]
-      if moves.length() > 200000 {
+      if moves.length() >= 200000 {
         return Err("command limit: 200000")
       }
     }

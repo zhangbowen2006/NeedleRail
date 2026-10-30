@@ -2,6 +2,20 @@
 test "satin rails preserve endpoints and alternate sides" {
   assert_true(
     satin(
+      [
+        { x: 0, y: 0, },
+        { x: 100, y: 100, },
+        { x: 0, y: 100, },
+        { x: 100, y: 0, },
+      ],
+      [{ x: 200, y: 0, }, { x: 200, y: 100, }],
+      10,
+      121,
+    )
+    is Err(_),
+  )
+  assert_true(
+    satin(
       [{ x: 0, y: 0, }, { x: 100, y: 100, }],
       [{ x: 100, y: 0, }, { x: 0, y: 100, }],
       10,
