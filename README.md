@@ -77,6 +77,6 @@ Set-Location .\NeedleRail
 
 本机严格检查所有四个目标通过；Wasm、Wasm GC、JavaScript 各 11 组 MoonBit 测试通过。测试遍历 59049 个合法二维 DST 位移，分别验证缝制与跳针。Node 10 组集成测试通过。三个文件经 pyembroidery 1.5.1 独立解码，全部位置、命令与头部边界一致，SVG 通过 XML 解析。原生运行因本机缺少 MSVC Build Tools 未完成。
 
-可选独立复核：安装 `pyembroidery==1.5.1` 后运行 `python scripts/verify_dst.py`。Python 只用于外部测试。[远端 CI 已通过](https://github.com/zhangbowen2006/NeedleRail/actions/runs/41015738042)，Linux 上四个目标各 7 组测试通过，包括 Native；CLI 测试及重新生成文件的外部解码也通过。Windows 本机仍缺少原生编译工具，不能将 Linux 结果解释为 Windows Native 运行通过。
+可选独立复核：安装 `pyembroidery==1.5.1` 后运行 `python scripts/verify_dst.py`。Python 只用于外部测试。[远端 CI 已通过](https://github.com/zhangbowen2006/NeedleRail/actions/runs/41067104221)，Linux 上四个目标各 11 组测试通过，包括 Native；CLI 测试及重新生成文件的外部解码也通过。Windows 本机仍缺少原生编译工具，不能将 Linux 结果解释为 Windows Native 运行通过。
 
 Apache-2.0。DST 位布局与头部参考了 MIT 许可的 pyembroidery，保留 [MIT 声明](docs/pyembroidery-MIT.txt)；不是 Ink/Stitch 的封装，没有复制其 GPL 实现。AI 参与开发与工程文档，正式比赛申报正文由参赛者本人独立完成。
