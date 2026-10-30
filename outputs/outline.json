@@ -1,0 +1,851 @@
+{
+  "unit": "0.1mm",
+  "hoop_width": 1200,
+  "hoop_height": 1000,
+  "max_step": 25,
+  "stitches": 132,
+  "jumps": 6,
+  "color_changes": 1,
+  "commands": [
+    {
+      "x": -75,
+      "y": -50,
+      "kind": "jump",
+      "thread": 0
+    },
+    {
+      "x": -150,
+      "y": -100,
+      "kind": "jump",
+      "thread": 0
+    },
+    {
+      "x": -225,
+      "y": -150,
+      "kind": "jump",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -200,
+      "kind": "jump",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -200,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -280,
+      "y": -210,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -260,
+      "y": -220,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -240,
+      "y": -230,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -220,
+      "y": -240,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -200,
+      "y": -250,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -180,
+      "y": -260,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -160,
+      "y": -270,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -140,
+      "y": -280,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -120,
+      "y": -290,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -100,
+      "y": -300,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -80,
+      "y": -310,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -60,
+      "y": -320,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -40,
+      "y": -330,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -20,
+      "y": -340,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 0,
+      "y": -350,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 20,
+      "y": -340,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 40,
+      "y": -330,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 60,
+      "y": -320,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 80,
+      "y": -310,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 100,
+      "y": -300,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 120,
+      "y": -290,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 140,
+      "y": -280,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 160,
+      "y": -270,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 180,
+      "y": -260,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 200,
+      "y": -250,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 220,
+      "y": -240,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 240,
+      "y": -230,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 260,
+      "y": -220,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 280,
+      "y": -210,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -200,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -178,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -156,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -133,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -111,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -89,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -67,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -44,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": -22,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 0,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 22,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 44,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 67,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 89,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 111,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 133,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 156,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 178,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 300,
+      "y": 200,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 280,
+      "y": 210,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 260,
+      "y": 220,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 240,
+      "y": 230,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 220,
+      "y": 240,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 200,
+      "y": 250,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 180,
+      "y": 260,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 160,
+      "y": 270,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 140,
+      "y": 280,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 120,
+      "y": 290,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 100,
+      "y": 300,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 80,
+      "y": 310,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 60,
+      "y": 320,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 40,
+      "y": 330,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 20,
+      "y": 340,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": 0,
+      "y": 350,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -20,
+      "y": 340,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -40,
+      "y": 330,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -60,
+      "y": 320,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -80,
+      "y": 310,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -100,
+      "y": 300,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -120,
+      "y": 290,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -140,
+      "y": 280,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -160,
+      "y": 270,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -180,
+      "y": 260,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -200,
+      "y": 250,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -220,
+      "y": 240,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -240,
+      "y": 230,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -260,
+      "y": 220,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -280,
+      "y": 210,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 200,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 178,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 156,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 133,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 111,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 89,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 67,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 44,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 22,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": 0,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -22,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -44,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -67,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -89,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -111,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -133,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -156,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -178,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -200,
+      "kind": "stitch",
+      "thread": 0
+    },
+    {
+      "x": -300,
+      "y": -200,
+      "kind": "color",
+      "thread": 1
+    },
+    {
+      "x": -250,
+      "y": -100,
+      "kind": "jump",
+      "thread": 1
+    },
+    {
+      "x": -200,
+      "y": 0,
+      "kind": "jump",
+      "thread": 1
+    },
+    {
+      "x": -200,
+      "y": 0,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -186,
+      "y": 14,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -171,
+      "y": 29,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -157,
+      "y": 43,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -143,
+      "y": 57,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -129,
+      "y": 71,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -114,
+      "y": 86,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -100,
+      "y": 100,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -90,
+      "y": 80,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -80,
+      "y": 60,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -70,
+      "y": 40,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -60,
+      "y": 20,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -50,
+      "y": 0,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -40,
+      "y": -20,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -30,
+      "y": -40,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -20,
+      "y": -60,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": -10,
+      "y": -80,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 0,
+      "y": -100,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 10,
+      "y": -80,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 20,
+      "y": -60,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 30,
+      "y": -40,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 40,
+      "y": -20,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 50,
+      "y": 0,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 60,
+      "y": 20,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 70,
+      "y": 40,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 80,
+      "y": 60,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 90,
+      "y": 80,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 100,
+      "y": 100,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 114,
+      "y": 86,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 129,
+      "y": 71,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 143,
+      "y": 57,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 157,
+      "y": 43,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 171,
+      "y": 29,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 186,
+      "y": 14,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 200,
+      "y": 0,
+      "kind": "stitch",
+      "thread": 1
+    },
+    {
+      "x": 200,
+      "y": 0,
+      "kind": "end",
+      "thread": 1
+    }
+  ]
+}
