@@ -2,6 +2,8 @@
 
 公开仓库：[zhangbowen2006/NeedleRail](https://github.com/zhangbowen2006/NeedleRail)。经终端核验并获得本人确认，本次使用旧账号 zhangbowen2006 发布，未使用此前提出但未核验的新账号。
 
+已发布：[Mooncakes 0.1.0](https://mooncakes.io/docs/zhangbowen2006/needlerail@0.1.0) · [对应源码标签 v0.1.0](https://github.com/zhangbowen2006/NeedleRail/tree/v0.1.0) · [发布验证记录](docs/RELEASE-0.1.0.md)。
+
 **将明确的几何图案编译成机器刺绣针迹、Tajima DST 文件与 SVG 预览。** 核心使用 MoonBit，不调用 Ink/Stitch、Python 或云服务完成生产计算；Node CLI 只负责文件读写。
 
 独立工具与可复用库，服务于创客空间、简单绣章设计、教学与程序生成图案。输入是折线、双轨或多边形，输出是针位与实际文件，不从照片猜测针迹。三种针法和文件格式都是已有技术，本项目不声称发明针法或全球唯一。[竞品调查](docs/RESEARCH.md) · [来源与旧账号披露](docs/PROVENANCE.md) · [验证记录](docs/VALIDATION.md)。
@@ -61,7 +63,7 @@ Set-Location .\NeedleRail
 - `fill`：提供 `rings`、`spacing`。每环不重复首点；环须简单、互不相交或接触，以奇偶规则处理孔与嵌套。只支持水平扫描，不自动旋转纹理。
 - `thread` 为 0–63 的调用方线序标识。物件按输入顺序缝制，线号变化生成换色命令。DST 不保存 RGB；SVG 用固定循环调色板示意，JSON 保留线号。
 
-在消费包 `moon.pkg` 导入 `"zhangbowen2006/needlerail" @rail` 后，可调用 `running`、`satin`、`fill` 或 `compile`，再通过 `Plan::dst`、`svg`、`report` 输出。[生成接口](pkg.generated.mbti) 为当前签名依据。`parse_job` 返回结构化 Result 错误，`compile_json` 返回纯 JSON。包未发布前不能声称注册表安装已可用。
+在消费项目执行 `moon add zhangbowen2006/needlerail@0.1.0`，再在消费包 `moon.pkg` 导入 `"zhangbowen2006/needlerail" @rail` 后，可调用 `running`、`satin`、`fill` 或 `compile`，再通过 `Plan::dst`、`svg`、`report` 输出。[生成接口](pkg.generated.mbti) 为当前签名依据。`parse_job` 返回结构化 Result 错误，`compile_json` 返回纯 JSON。该版本已在独立目录从注册表安装，并实际运行公开 API。
 
 ## 算法与边界
 

@@ -2,6 +2,8 @@
 
 可核验事实：
 
+- 已于北京时间 2026-10-31 发布 zhangbowen2006/needlerail@0.1.0；包链接为 https://mooncakes.io/docs/zhangbowen2006/needlerail@0.1.0 ，独立目录安装及公开 API 运行通过，见 RELEASE-0.1.0.md。
+
 - 已核验公开仓库：https://github.com/zhangbowen2006/NeedleRail ，默认分支 main；实际使用旧账号，经本人明确同意。远端 CI 已通过，参见 docs/VALIDATION.md。
 
 - 项目 NeedleRail，当前本地目录 D:\Backup\Documents\ChatGPT\张博文\NeedleRail，MoonBit 核心、无第三方 Mooncakes 生产依赖。

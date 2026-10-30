@@ -21,7 +21,9 @@
 | `node scripts/cli.mjs examples/satin.json outputs/satin` | 生成 228 个缝制针位、3 跳针、0 换色；232 条记录 |
 | `node scripts/cli.mjs examples/patch.json outputs/patch` | 生成 2077 个缝制针位、136 跳针、1 换色；2215 条记录 |
 | `python scripts/verify_dst.py`，环境含 pyembroidery 1.5.1 | 三个案例全部位置、命令、记录数和头部边界一致；SVG 通过 XML 解析，报告见 dst-verification.json |
-| `moon publish --dry-run` | 失败，Registry login is required；不代表包已发布，不能用猜测的包链接作为发布证据 |
+| `moon publish --dry-run` | 初次因未登录失败；2026-10-31 登录后预检通过，服务端返回 202 Accepted |
+| `moon publish` | 2026-10-31 发布 0.1.0，打包及解压检查通过，服务端返回 200 OK |
+| 独立目录 `moon add zhangbowen2006/needlerail@0.1.0` 后 `moon run cmd/main` | 实际从注册表下载安装成功，公开 API 返回预期 7 条指令、6 个缝制针位和 533 字节 DST |
 | `moon run cmd/main` | 通过，打印实际指令报告与 560 字节 DST 长度 |
 | `moon package --list` | 检查通过并生成本地发布包；警告 repository 为空，因为公开仓库尚未创建，不填虚构地址 |
 
@@ -33,7 +35,7 @@ Node 测试将当前编译结果与已提交 DST/JSON/SVG 逐项比对。CI 将�
 
 局限：XML 解析不是完整视觉审查；外部 reader 通过不是通用机型认证。未真实刺绣、未验证剪线行为与布料成品、未做跨平台性能基准或用户部署。Linux Native 通过不代表 Windows Native 本机运行通过。
 
-GitHub 身份、公开默认分支与 CI 已核验。Mooncakes 仍需本人在终端完成登录，包页面尚未发布；报名次数、资格和人工申报未验证。
+GitHub 身份、公开默认分支与 CI 已核验。2026-10-31 已核验 Mooncakes 登录为 zhangbowen2006，完成 0.1.0 发布与独立安装运行；发布包 SHA256 与注册表元数据一致，详见 RELEASE-0.1.0.md。报名次数、资格和人工申报未验证。
 
 最新子代理复核整合后，重新执行上述三后端测试（各11组）、Node测试（10组）及外部解码全部通过，详见 REVIEW-20261030.md。此前远端CI链接对应旧版7组测试，不代表新提交已经远端通过；新提交须查看其关联Actions结果。
 
