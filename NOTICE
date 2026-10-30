@@ -1,0 +1,17 @@
+NeedleRail
+Project license: Apache-2.0; see LICENSE.
+
+DST encoding reference and adaptation:
+EmbroidePy/pyembroidery, pyembroidery/DstWriter.py, MIT License.
+Reference revision: 815d5febaa005c6afb3ec52235caee51a0111082.
+https://github.com/EmbroidePy/pyembroidery/blob/815d5febaa005c6afb3ec52235caee51a0111082/pyembroidery/DstWriter.py
+The DST record bit layout, Y-axis convention and header conventions were
+implemented after reviewing this file. The full upstream MIT license and its
+copyright notice are retained in docs/pyembroidery-MIT.txt.
+
+MoonBit core standard library: Apache-2.0.
+https://github.com/moonbitlang/core/blob/main/LICENSE
+
+pyembroidery 1.5.1 is also an optional independent test reader (MIT); it is not
+used by the production compiler. Ink/Stitch was studied for feature comparison;
+its GPL-licensed implementation is not included or invoked by this project.

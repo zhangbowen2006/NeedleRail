@@ -8,10 +8,20 @@
 
 本次先后撤回 ChronoRel 与 LoadLoom 试验：直接注册表发现 [MoonAllen](https://github.com/yujieMamba/moonallen)，GitHub 搜索发现 [fatigue-spectrum](https://github.com/gckbbrant/fatigue-spectrum)，分别高度覆盖其核心。它们保留在本地独立目录，不作为本项目提交，也未向新项目复制核心、测试结果或提交历史。NeedleRail 通过官方 moon new 单独初始化。
 
-几何细分、弧长采样、奇偶扫描线均为已有方法，本项目的工作是实现可组合的针迹编译链与可执行输出，并非新数学算法。开发时阅读了 [pyembroidery DstWriter](https://github.com/EmbroidePy/pyembroidery/blob/main/pyembroidery/DstWriter.py)，参考其 MIT 许可下的 DST 位布局、屏幕 y 翻转和头部约定；编码采用数据表组织。MIT 全文保留在本目录，明确存在参考关系，不将格式编码冒充全新发明。
+几何细分、弧长采样、奇偶扫描线均为已有方法，本项目的工作是实现可组合的针迹编译链与可执行输出，并非新数学算法。开发时阅读了 [pyembroidery DstWriter](https://github.com/EmbroidePy/pyembroidery/blob/815d5febaa005c6afb3ec52235caee51a0111082/pyembroidery/DstWriter.py)，参考并改写其 MIT 许可下的 DST 位布局、屏幕 y 翻转和头部约定；编码采用数据表组织。这属于格式编码部分的参考重实现，不是把整个 pyembroidery 或 Ink/Stitch 项目移植到 MoonBit。MIT 全文及原有版权声明保留在本目录，根目录 NOTICE 也列出来源，不将格式编码冒充全新发明。
+
+2026-10-31 核对时，上述固定修订的 DstWriter.py 与开发时保存的参考文件字节一致，SHA256 为 f4653bffd9843ed3dcfebb3f936dbd100ea6eb20087c80813e522793e83517f9。参考源与开发验证库的身份不同：编码参考文件固定到该修订，独立 reader 使用 PyPI pyembroidery 1.5.1，不混称为同一个版本。
 
 [Ink/Stitch](https://github.com/inkstitch/inkstitch) 用于功能比较，没有复制其 GPL 源码或作为运行依赖。项目不声称得到这些项目授权背书或被其认证。
 
 运行时仅依赖 MoonBit core（Apache-2.0）及用于 CLI 文件读写的 Node.js；开发复核使用 pyembroidery 1.5.1（MIT），不打包进生产计算。样例是本项目合成几何，不含客户图样或个人资料。
 
 AI 辅助了调研、实现、测试与工程文档。用户须能解释针距、弧长采样、扫描线孔洞、DST 编码、跳针与剪线的差别。未代写正式比赛申报书，空白提纲供本人填写。
+
+| 对象 | 实际关系 | 许可证与保留位置 |
+|---|---|---|
+| NeedleRail 的几何、针迹编译、报告、CLI 与测试 | 本仓库新建实现；AI 辅助，不宣称新算法 | Apache-2.0，根目录 LICENSE |
+| pyembroidery DstWriter.py | DST 位布局、坐标方向和头部编码的参考/改写 | MIT；docs/pyembroidery-MIT.txt 保留全文与原声明，NOTICE 记录固定来源 |
+| pyembroidery 1.5.1 | 开发时独立读取 DST 核验，不参与生产编译 | MIT；安装时使用上游包，版本受验证脚本检查 |
+| MoonBit core 0.10.18+6c83a7f62 | 标准库依赖，未将其源码当成本项目新增工作 | Apache-2.0；上游 LICENSE 链接见 NOTICE |
+| Ink/Stitch | 功能对照，未复制其实现或调用其运行程序 | 上游 GPL-3.0；不声称参考了产品功能就拥有其实现，也不声称其 GPL 代码在本仓库 |
