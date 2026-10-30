@@ -1,0 +1,72 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "zhangbowen200602/needlerail"
+
+// Values
+pub fn compile(Array[Object], Int32, Int32, Int32) -> Result[Plan, String]
+
+pub fn compile_json(String) -> String
+
+pub fn fill(Array[Array[Point]], Int32, Int32) -> Result[Array[Array[Point]], String]
+
+pub fn kind_name(Kind) -> String
+
+pub fn parse_job(String) -> Result[Plan, String]
+
+pub fn running(Array[Point], Int32) -> Result[Array[Point], String]
+
+pub fn satin(Array[Point], Array[Point], Int32, Int32) -> Result[Array[Point], String]
+
+// Errors
+
+// Types and methods
+pub struct Command {
+  position : Point
+  kind : Kind
+  thread : Int32
+}
+
+pub(all) enum Kind {
+  Stitch
+  Jump
+  Color
+  End
+} derive(Eq)
+#deprecated
+pub fn Kind::equal(Self, Self) -> Bool
+#deprecated
+pub fn Kind::not_equal(Self, Self) -> Bool
+
+pub(all) struct Object {
+  shape : Shape
+  thread : Int32
+}
+
+pub struct Plan {
+  // private fields
+}
+pub fn Plan::commands(Self) -> Array[Command]
+pub fn Plan::dst(Self) -> Bytes
+pub fn Plan::report(Self) -> Json
+pub fn Plan::settings(Self) -> (Int32, Int32, Int32)
+pub fn Plan::svg(Self) -> String
+
+pub(all) struct Point {
+  x : Int32
+  y : Int32
+} derive(Eq, ToJson)
+#deprecated
+pub fn Point::equal(Self, Self) -> Bool
+#deprecated
+pub fn Point::not_equal(Self, Self) -> Bool
+#deprecated
+pub fn Point::to_json(Self) -> Json
+
+pub(all) enum Shape {
+  Running(Array[Point])
+  Satin(Array[Point], Array[Point], Int32)
+  Fill(Array[Array[Point]], Int32)
+}
+
+// Type aliases
+
+// Traits

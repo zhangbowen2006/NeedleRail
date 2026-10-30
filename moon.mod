@@ -13,14 +13,14 @@ name = "zhangbowen200602/needlerail"
 
 version = "0.1.0"
 
-readme = "README.mbt.md"
+readme = "README.md"
 
 repository = ""
 
 license = "Apache-2.0"
 
-keywords = [ ]
+keywords = [ "embroidery", "dst", "geometry", "stitch-planning" ]
 
 preferred_target = "wasm"
 
-description = ""
+description = "Standalone geometry-to-embroidery compiler: running, satin and even-odd fill stitches, DST and SVG proofs"
