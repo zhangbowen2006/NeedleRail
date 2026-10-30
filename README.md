@@ -4,6 +4,8 @@
 
 已发布：[Mooncakes 0.1.0](https://mooncakes.io/docs/zhangbowen2006/needlerail@0.1.0) · [对应源码标签 v0.1.0](https://github.com/zhangbowen2006/NeedleRail/tree/v0.1.0) · [发布验证记录](docs/RELEASE-0.1.0.md)。
 
+申报材料：[正式 Markdown](docs/SUBMISSION.md) · [一页 PDF 预览](output/pdf/NeedleRail-项目申报书-20261031.pdf) · [验收对照检查](docs/ACCEPTANCE-CHECK-20261031.md)。
+
 **将明确的几何图案编译成机器刺绣针迹、Tajima DST 文件与 SVG 预览。** 核心使用 MoonBit，不调用 Ink/Stitch、Python 或云服务完成生产计算；Node CLI 只负责文件读写。
 
 独立工具与可复用库，服务于创客空间、简单绣章设计、教学与程序生成图案。输入是折线、双轨或多边形，输出是针位与实际文件，不从照片猜测针迹。三种针法和文件格式都是已有技术，本项目不声称发明针法或全球唯一。[竞品调查](docs/RESEARCH.md) · [来源与旧账号披露](docs/PROVENANCE.md) · [验证记录](docs/VALIDATION.md)。
