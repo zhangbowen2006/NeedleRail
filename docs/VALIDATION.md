@@ -2,6 +2,8 @@
 
 日期：北京时间 2026-10-30。工作目录：D:\CodexProjects\NeedleRail。仅本项目记录，不继承此前撤回试验的结果。
 
+按本人后续要求，当前工作副本改为 D:\Backup\Documents\ChatGPT\张博文\NeedleRail，通过公开仓库重新检出，保留同一历史与 main 分支。该中文路径下重新完成四目标严格检查、Wasm/Wasm GC/JS 各 7 组测试、4 组 Node 集成测试及 patch 文件生成；生成 DST 的 SHA256 与已提交产物一致。新检出的 CRLF 导致格式检查失败，补充 .gitattributes 并规范为 LF 后，moon info、moon fmt、moon fmt --check 通过；没有修改 DST 二进制。
+
 工具链：moon 0.1.20261028 (e1e1f15)、moonc v0.10.18+6c83a7f62、Node.js v24.22.1。工具链 ZIP 的 SHA256 与官方发布校验值一致。MoonBit 安装在 D:\CodexProjects\.tools\moon，非全局安装。
 
 | 命令 | 实际结果 |

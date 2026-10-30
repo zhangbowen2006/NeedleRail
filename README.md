@@ -28,7 +28,7 @@ node --test tests/*.test.mjs
 ```powershell
 $env:MOON_HOME='D:\CodexProjects\.tools\moon'
 $env:PATH="$env:MOON_HOME\bin;$env:PATH"
-Set-Location D:\CodexProjects\NeedleRail
+Set-Location .\NeedleRail
 ```
 
 ## 三个完整场景

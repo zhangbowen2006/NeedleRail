@@ -4,7 +4,7 @@
 
 - 已核验公开仓库：https://github.com/zhangbowen2006/NeedleRail ，默认分支 main；实际使用旧账号，经本人明确同意。远端 CI 已通过，参见 docs/VALIDATION.md。
 
-- 项目 NeedleRail，独立目录 D:\CodexProjects\NeedleRail，MoonBit 核心、无第三方 Mooncakes 生产依赖。
+- 项目 NeedleRail，当前本地目录 D:\Backup\Documents\ChatGPT\张博文\NeedleRail，MoonBit 核心、无第三方 Mooncakes 生产依赖。
 - 已实现 running 细分、双轨弧长 satin、even-odd 带孔 fill、绣框边界、跳针拆分、显式换色、DST、SVG、JSON 和文件 CLI。
 - 三个场景文件及验证结果见 README、docs/VALIDATION.md 和 docs/dst-verification.json。
 - 外部 reader 为 pyembroidery 1.5.1；实际机器打样没有完成，不能写“设备验证通过”。
