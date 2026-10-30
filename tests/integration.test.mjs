@@ -10,6 +10,9 @@ for(const name of ['outline','satin','patch'])test(`complete ${name} job generat
   const job=JSON.parse(fs.readFileSync(new URL(`../examples/${name}.json`,import.meta.url)));
   const out=run(job);assert.equal(out.error,undefined);
   const report=out.report;let prev={x:0,y:0};
+  assert.deepEqual([...fs.readFileSync(new URL(`../outputs/${name}.dst`,import.meta.url))],out.dst_bytes);
+  assert.deepEqual(JSON.parse(fs.readFileSync(new URL(`../outputs/${name}.json`,import.meta.url))),out.report);
+  assert.equal(fs.readFileSync(new URL(`../outputs/${name}.svg`,import.meta.url),'utf8'),out.svg);
   assert.equal(report.commands.at(-1).kind,'end');
   assert.equal(report.commands.filter(c=>c.kind==='end').length,1);
   for(const c of report.commands){
