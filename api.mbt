@@ -50,6 +50,29 @@ pub fn parse_job(text : String) -> Result[Plan, String] {
   let input : Input = @json.from_json(raw) catch {
     _ => return Err("invalid job schema")
   }
+  match raw {
+    Object(fields) => {
+      for key, _ in fields {
+        if !["width", "height", "max_step", "objects"].contains(key) {
+          return Err("unknown job field: " + key)
+        }
+      }
+      if fields.get("objects") is Some(Array(items)) {
+        for item in items {
+          if item is Object(obj_fields) {
+            for key, _ in obj_fields {
+              if ![
+                  "kind", "thread", "path", "left", "right", "rings", "spacing",
+                ].contains(key) {
+                return Err("unknown object field: " + key)
+              }
+            }
+          }
+        }
+      }
+    }
+    _ => return Err("job must be an object")
+  }
   if !int_valid(input.width, 100, 10000) ||
     !int_valid(input.height, 100, 10000) ||
     !int_valid(input.max_step, 3, 121) {

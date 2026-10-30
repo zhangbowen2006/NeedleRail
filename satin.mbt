@@ -30,6 +30,16 @@ pub fn satin(
   spacing : Int32,
   max_step : Int32,
 ) -> Result[Array[Point], String] {
+  if left.length() > 512 || right.length() > 512 {
+    return Err("satin rail vertex limit: 512")
+  }
+  for i = 1; i < left.length(); i = i + 1 {
+    for j = 1; j < right.length(); j = j + 1 {
+      if intersects(left[i - 1], left[i], right[j - 1], right[j]) {
+        return Err("satin rails intersect or touch")
+      }
+    }
+  }
   if spacing < 3 || spacing > 1000 {
     return Err("satin spacing must be 3..1000")
   }

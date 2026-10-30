@@ -53,6 +53,13 @@ pub fn fill(
     for i = 0; i < ring.length(); i = i + 1 {
       let a = ring[i]
       let b = ring[(i + 1) % ring.length()]
+      let c = ring[(i + 2) % ring.length()]
+      if orient(a, b, c) == 0.0 &&
+        (b.x - a.x).to_double() * (c.x - b.x).to_double() +
+        (b.y - a.y).to_double() * (c.y - b.y).to_double() <
+        0.0 {
+        return Err("ring edge backtracks")
+      }
       if !valid_point(a) || a == b {
         return Err("invalid ring vertex or zero edge")
       }

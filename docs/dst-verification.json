@@ -1,0 +1,37 @@
+{
+  "reader": "pyembroidery",
+  "reader_version": "1.5.1",
+  "cases": [
+    {
+      "name": "outline",
+      "decoded_records": 140,
+      "stitches": 132,
+      "jumps": 6,
+      "color_changes": 1,
+      "positions_equal": true,
+      "commands_equal": true,
+      "header_extents_equal": true
+    },
+    {
+      "name": "satin",
+      "decoded_records": 226,
+      "stitches": 222,
+      "jumps": 3,
+      "color_changes": 0,
+      "positions_equal": true,
+      "commands_equal": true,
+      "header_extents_equal": true
+    },
+    {
+      "name": "patch",
+      "decoded_records": 2215,
+      "stitches": 2077,
+      "jumps": 136,
+      "color_changes": 1,
+      "positions_equal": true,
+      "commands_equal": true,
+      "header_extents_equal": true
+    }
+  ],
+  "physical_machine_test": false
+}
