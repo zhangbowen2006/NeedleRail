@@ -27,6 +27,8 @@ DST 核心测试遍历 dx/dy=-121..121 的 59049 种组合，对 Stitch 和 Jump
 
 Node 测试将当前编译结果与已提交 DST/JSON/SVG 逐项比对。CI 将重新生成三份文件，再通过独立 Python reader 检查，避免只验证历史产物。
 
-局限：XML 解析不是完整视觉审查；外部 reader 通过不是通用机型认证。未真实刺绣、未验证剪线行为与布料成品、未做跨平台性能基准或用户部署。Linux native 与 GitHub Actions 结果需在公开推送后另行核验。
+后续远端验证：公开仓库 [zhangbowen2006/NeedleRail](https://github.com/zhangbowen2006/NeedleRail)，默认分支 main。已核验首次远端 HEAD 为 fbeb6f50669fd353faf31b3eeb835c5ab3124dfa，与本地一致。[Actions 41015738042](https://github.com/zhangbowen2006/NeedleRail/actions/runs/41015738042) 全部成功：Linux 上四个目标检查、构建、各 7 组测试均通过，CLI 与当前提交样例回归通过，重新生成的三份 DST/SVG 经独立 reader/XML 解析通过。GitHub API 将提交作者与提交者均识别为 zhangbowen2006。
 
-首次发布前必须核验实际 GitHub 和 Mooncakes 身份、公开默认分支、CI 与包页面。报名次数、资格和人工申报未验证。
+局限：XML 解析不是完整视觉审查；外部 reader 通过不是通用机型认证。未真实刺绣、未验证剪线行为与布料成品、未做跨平台性能基准或用户部署。Linux Native 通过不代表 Windows Native 本机运行通过。
+
+GitHub 身份、公开默认分支与 CI 已核验。Mooncakes 仍需本人在终端完成登录，包页面尚未发布；报名次数、资格和人工申报未验证。
