@@ -23,6 +23,43 @@ fn int_valid(x : Double, low : Int32, high : Int32) -> Bool {
 }
 
 ///|
+/// Check lexical integers before Double decoding can round a fractional token.
+fn integer_tokens(value : Json) -> Bool {
+  match value {
+    Number(_, repr~) => {
+      let s = match repr {
+        None => return false
+        Some(s) => s
+      }
+      let mut first = true
+      let mut digits = 0
+      for c in s.iter() {
+        if first && c == '-' {
+          first = false
+          continue
+        }
+        if c < '0' || c > '9' {
+          return false
+        }
+        first = false
+        digits = digits + 1
+      }
+      digits > 0
+    }
+    Array(items) => items.all(integer_tokens)
+    Object(fields) => {
+      for _, v in fields {
+        if !integer_tokens(v) {
+          return false
+        }
+      }
+      true
+    }
+    _ => true
+  }
+}
+
+///|
 fn points(raw : Array[Array[Double]]) -> Result[Array[Point], String] {
   if raw.length() > 10000 {
     return Err("too many points")
@@ -44,8 +81,18 @@ pub fn parse_job(text : String) -> Result[Plan, String] {
   if text.length() > 4000000 {
     return Err("job text limit: 4000000")
   }
-  let raw = @json.parse(text, reject_duplicate_keys=true, max_nesting_depth=16) catch {
+  let raw = @json.parse(
+    text,
+    reject_duplicate_keys=true,
+    max_nesting_depth=16,
+    preserve_number_repr=true,
+  ) catch {
     _ => return Err("invalid JSON")
+  }
+  if !integer_tokens(raw) {
+    return Err(
+      "job numbers must use integer literals (no decimals or exponents)",
+    )
   }
   let input : Input = @json.from_json(raw) catch {
     _ => return Err("invalid job schema")

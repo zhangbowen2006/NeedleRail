@@ -22,6 +22,15 @@ fn along(rail : Array[Point], fraction : Double, total : Double) -> Point {
 }
 
 ///|
+fn satin_cell(value : Int32) -> Int32 {
+  if value >= 0 {
+    value / 128
+  } else {
+    (value - 127) / 128
+  }
+}
+
+///|
 /// Rails must have matching direction. Samples each by normalized arc length.
 /// Oversize cross-rail stitches fail instead of silently changing stitch type.
 pub fn satin(
@@ -49,6 +58,17 @@ pub fn satin(
       if rail[i] == rail[i - 1] {
         return Err("satin rail has a duplicate vertex")
       }
+      if i + 1 < rail.length() {
+        let a = rail[i - 1]
+        let b = rail[i]
+        let c = rail[i + 1]
+        if orient(a, b, c) == 0.0 &&
+          (b.x - a.x).to_double() * (c.x - b.x).to_double() +
+          (b.y - a.y).to_double() * (c.y - b.y).to_double() <
+          0.0 {
+          return Err("satin rail edge backtracks")
+        }
+      }
       for j = i + 2; j < rail.length(); j = j + 1 {
         if intersects(rail[i - 1], rail[i], rail[j - 1], rail[j]) {
           return Err("satin rail self-intersects")
@@ -71,12 +91,57 @@ pub fn satin(
     return Err("satin point limit")
   }
   let result : Array[Point] = []
+  // Each crossbar is at most 121 units long. Its bounding box therefore
+  // occupies at most four 128-unit cells. Compare only spatial candidates,
+  // deduplicating bars that occupy multiple cells. The budget is a work limit,
+  // not a proof that rejected jobs are geometrically impossible.
+  let buckets : Map[(Int32, Int32), Array[Int32]] = Map([])
+  let seen = Array::make(steps + 1, -1)
+  let mut comparisons = 0
   for i = 0; i <= steps; i = i + 1 {
     let t = i.to_double() / steps.to_double()
     let a = along(left, t, ll)
     let b = along(right, t, rl)
     if a == b {
       return Err("satin rails touch at a sampled station")
+    }
+    if distance(a, b) > max_step.to_double() {
+      return Err("satin crossbar exceeds max_step; narrow rails")
+    }
+    if i > 0 && (a == result[2 * i - 2] || b == result[2 * i - 1]) {
+      return Err(
+        "satin station repeats a rounded rail endpoint; increase spacing",
+      )
+    }
+    let x0 = satin_cell(if a.x < b.x { a.x } else { b.x })
+    let x1 = satin_cell(if a.x > b.x { a.x } else { b.x })
+    let y0 = satin_cell(if a.y < b.y { a.y } else { b.y })
+    let y1 = satin_cell(if a.y > b.y { a.y } else { b.y })
+    for x = x0; x <= x1; x = x + 1 {
+      for y = y0; y <= y1; y = y + 1 {
+        if buckets.get((x, y)) is Some(candidates) {
+          for previous in candidates {
+            if seen[previous] == i {
+              continue
+            }
+            seen[previous] = i
+            comparisons = comparisons + 1
+            if comparisons > 1000000 {
+              return Err("satin crossbar comparison budget exceeded: 1000000")
+            }
+            if intersects(a, b, result[2 * previous], result[2 * previous + 1]) {
+              return Err(
+                "satin crossbars intersect or touch; check rail direction and correspondence",
+              )
+            }
+          }
+        }
+      }
+    }
+    for x = x0; x <= x1; x = x + 1 {
+      for y = y0; y <= y1; y = y + 1 {
+        buckets.get_or_init((x, y), fn() { [] }).push(i)
+      }
     }
     result.push(a)
     result.push(b)

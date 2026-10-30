@@ -3,7 +3,7 @@
   "hoop_width": 1000,
   "hoop_height": 1000,
   "max_step": 80,
-  "stitches": 222,
+  "stitches": 228,
   "jumps": 3,
   "color_changes": 0,
   "commands": [
@@ -39,13 +39,13 @@
     },
     {
       "x": -198,
-      "y": -245,
+      "y": -246,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -148,
-      "y": -245,
+      "y": -246,
       "kind": "stitch",
       "thread": 2
     },
@@ -63,13 +63,13 @@
     },
     {
       "x": -194,
-      "y": -236,
+      "y": -237,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -144,
-      "y": -236,
+      "y": -237,
       "kind": "stitch",
       "thread": 2
     },
@@ -86,20 +86,20 @@
       "thread": 2
     },
     {
-      "x": -189,
-      "y": -227,
+      "x": -190,
+      "y": -228,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -139,
-      "y": -227,
+      "x": -140,
+      "y": -228,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -187,
-      "y": -223,
+      "x": -188,
+      "y": -224,
       "kind": "stitch",
       "thread": 2
     },
@@ -110,20 +110,20 @@
       "thread": 2
     },
     {
-      "x": -185,
-      "y": -218,
+      "x": -186,
+      "y": -219,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -135,
-      "y": -218,
+      "y": -219,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -183,
-      "y": -214,
+      "x": -184,
+      "y": -215,
       "kind": "stitch",
       "thread": 2
     },
@@ -134,20 +134,20 @@
       "thread": 2
     },
     {
-      "x": -181,
-      "y": -209,
+      "x": -182,
+      "y": -211,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -131,
-      "y": -209,
+      "y": -210,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -179,
-      "y": -205,
+      "x": -180,
+      "y": -206,
       "kind": "stitch",
       "thread": 2
     },
@@ -159,19 +159,19 @@
     },
     {
       "x": -177,
-      "y": -200,
+      "y": -202,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -127,
-      "y": -200,
+      "y": -201,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -175,
-      "y": -196,
+      "y": -197,
       "kind": "stitch",
       "thread": 2
     },
@@ -183,19 +183,19 @@
     },
     {
       "x": -173,
-      "y": -191,
+      "y": -193,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -123,
-      "y": -191,
+      "y": -192,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -171,
-      "y": -187,
+      "y": -189,
       "kind": "stitch",
       "thread": 2
     },
@@ -206,20 +206,20 @@
       "thread": 2
     },
     {
-      "x": -168,
-      "y": -182,
+      "x": -169,
+      "y": -184,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -118,
-      "y": -182,
+      "x": -119,
+      "y": -183,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -166,
-      "y": -178,
+      "x": -167,
+      "y": -180,
       "kind": "stitch",
       "thread": 2
     },
@@ -230,20 +230,20 @@
       "thread": 2
     },
     {
-      "x": -164,
-      "y": -173,
+      "x": -165,
+      "y": -175,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -114,
-      "y": -173,
+      "y": -174,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -162,
-      "y": -169,
+      "x": -163,
+      "y": -171,
       "kind": "stitch",
       "thread": 2
     },
@@ -254,20 +254,20 @@
       "thread": 2
     },
     {
-      "x": -160,
-      "y": -164,
+      "x": -161,
+      "y": -167,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -110,
-      "y": -164,
+      "y": -165,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -158,
-      "y": -160,
+      "x": -159,
+      "y": -162,
       "kind": "stitch",
       "thread": 2
     },
@@ -278,20 +278,20 @@
       "thread": 2
     },
     {
-      "x": -156,
-      "y": -155,
+      "x": -157,
+      "y": -158,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -106,
-      "y": -155,
+      "y": -156,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -154,
-      "y": -151,
+      "x": -155,
+      "y": -154,
       "kind": "stitch",
       "thread": 2
     },
@@ -302,20 +302,20 @@
       "thread": 2
     },
     {
-      "x": -152,
-      "y": -146,
+      "x": -153,
+      "y": -149,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -102,
-      "y": -146,
+      "y": -147,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -150,
-      "y": -142,
+      "x": -151,
+      "y": -145,
       "kind": "stitch",
       "thread": 2
     },
@@ -326,20 +326,20 @@
       "thread": 2
     },
     {
+      "x": -149,
+      "y": -140,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -98,
+      "y": -138,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
       "x": -147,
-      "y": -137,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -97,
-      "y": -137,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -145,
-      "y": -133,
+      "y": -136,
       "kind": "stitch",
       "thread": 2
     },
@@ -350,20 +350,20 @@
       "thread": 2
     },
     {
-      "x": -143,
-      "y": -128,
+      "x": -145,
+      "y": -132,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -93,
-      "y": -128,
+      "y": -129,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -141,
-      "y": -124,
+      "x": -143,
+      "y": -127,
       "kind": "stitch",
       "thread": 2
     },
@@ -374,20 +374,20 @@
       "thread": 2
     },
     {
-      "x": -139,
-      "y": -119,
+      "x": -141,
+      "y": -123,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -89,
-      "y": -119,
+      "y": -120,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -137,
-      "y": -115,
+      "x": -139,
+      "y": -118,
       "kind": "stitch",
       "thread": 2
     },
@@ -398,20 +398,20 @@
       "thread": 2
     },
     {
-      "x": -135,
-      "y": -110,
+      "x": -137,
+      "y": -114,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -85,
-      "y": -110,
+      "y": -111,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -133,
-      "y": -106,
+      "x": -135,
+      "y": -110,
       "kind": "stitch",
       "thread": 2
     },
@@ -422,20 +422,20 @@
       "thread": 2
     },
     {
-      "x": -131,
-      "y": -101,
+      "x": -132,
+      "y": -105,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -81,
-      "y": -101,
+      "y": -102,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -130,
-      "y": -97,
+      "y": -101,
       "kind": "stitch",
       "thread": 2
     },
@@ -446,8 +446,8 @@
       "thread": 2
     },
     {
-      "x": -131,
-      "y": -92,
+      "x": -130,
+      "y": -96,
       "kind": "stitch",
       "thread": 2
     },
@@ -459,7 +459,7 @@
     },
     {
       "x": -131,
-      "y": -87,
+      "y": -91,
       "kind": "stitch",
       "thread": 2
     },
@@ -470,8 +470,8 @@
       "thread": 2
     },
     {
-      "x": -132,
-      "y": -82,
+      "x": -131,
+      "y": -87,
       "kind": "stitch",
       "thread": 2
     },
@@ -483,7 +483,7 @@
     },
     {
       "x": -132,
-      "y": -77,
+      "y": -82,
       "kind": "stitch",
       "thread": 2
     },
@@ -494,8 +494,8 @@
       "thread": 2
     },
     {
-      "x": -133,
-      "y": -72,
+      "x": -132,
+      "y": -77,
       "kind": "stitch",
       "thread": 2
     },
@@ -507,7 +507,7 @@
     },
     {
       "x": -133,
-      "y": -67,
+      "y": -72,
       "kind": "stitch",
       "thread": 2
     },
@@ -518,8 +518,8 @@
       "thread": 2
     },
     {
-      "x": -134,
-      "y": -62,
+      "x": -133,
+      "y": -67,
       "kind": "stitch",
       "thread": 2
     },
@@ -531,7 +531,7 @@
     },
     {
       "x": -134,
-      "y": -57,
+      "y": -62,
       "kind": "stitch",
       "thread": 2
     },
@@ -542,8 +542,8 @@
       "thread": 2
     },
     {
-      "x": -135,
-      "y": -52,
+      "x": -134,
+      "y": -58,
       "kind": "stitch",
       "thread": 2
     },
@@ -555,7 +555,7 @@
     },
     {
       "x": -135,
-      "y": -47,
+      "y": -53,
       "kind": "stitch",
       "thread": 2
     },
@@ -566,104 +566,104 @@
       "thread": 2
     },
     {
-      "x": -136,
-      "y": -42,
+      "x": -135,
+      "y": -48,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -86,
-      "y": -42,
+      "y": -43,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -136,
-      "y": -37,
+      "y": -43,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -86,
-      "y": -37,
+      "y": -38,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -137,
-      "y": -32,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -87,
-      "y": -32,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -137,
-      "y": -27,
+      "x": -136,
+      "y": -38,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -87,
-      "y": -27,
+      "y": -33,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -138,
-      "y": -22,
+      "x": -137,
+      "y": -34,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -87,
+      "y": -28,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -137,
+      "y": -29,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -88,
-      "y": -22,
+      "y": -23,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -138,
-      "y": -17,
+      "y": -24,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -88,
-      "y": -17,
+      "y": -18,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -139,
-      "y": -12,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -89,
-      "y": -12,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -139,
-      "y": -8,
+      "x": -138,
+      "y": -19,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -89,
+      "y": -13,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -139,
+      "y": -14,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -89,
       "y": -8,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -140,
-      "y": -3,
+      "x": -139,
+      "y": -10,
       "kind": "stitch",
       "thread": 2
     },
@@ -675,7 +675,7 @@
     },
     {
       "x": -140,
-      "y": 2,
+      "y": -5,
       "kind": "stitch",
       "thread": 2
     },
@@ -686,8 +686,8 @@
       "thread": 2
     },
     {
-      "x": -141,
-      "y": 7,
+      "x": -140,
+      "y": 0,
       "kind": "stitch",
       "thread": 2
     },
@@ -698,8 +698,8 @@
       "thread": 2
     },
     {
-      "x": -141,
-      "y": 12,
+      "x": -140,
+      "y": 5,
       "kind": "stitch",
       "thread": 2
     },
@@ -710,8 +710,8 @@
       "thread": 2
     },
     {
-      "x": -142,
-      "y": 17,
+      "x": -141,
+      "y": 10,
       "kind": "stitch",
       "thread": 2
     },
@@ -722,8 +722,8 @@
       "thread": 2
     },
     {
-      "x": -142,
-      "y": 22,
+      "x": -141,
+      "y": 15,
       "kind": "stitch",
       "thread": 2
     },
@@ -734,8 +734,8 @@
       "thread": 2
     },
     {
-      "x": -143,
-      "y": 27,
+      "x": -142,
+      "y": 19,
       "kind": "stitch",
       "thread": 2
     },
@@ -746,8 +746,8 @@
       "thread": 2
     },
     {
-      "x": -143,
-      "y": 32,
+      "x": -142,
+      "y": 24,
       "kind": "stitch",
       "thread": 2
     },
@@ -758,86 +758,110 @@
       "thread": 2
     },
     {
-      "x": -144,
-      "y": 37,
+      "x": -143,
+      "y": 29,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -94,
-      "y": 37,
+      "y": 36,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -144,
-      "y": 42,
+      "x": -143,
+      "y": 34,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -94,
-      "y": 42,
+      "y": 41,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -145,
-      "y": 47,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -95,
-      "y": 47,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -145,
-      "y": 52,
+      "x": -144,
+      "y": 39,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -95,
-      "y": 52,
+      "y": 46,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -146,
-      "y": 57,
+      "x": -144,
+      "y": 43,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -95,
+      "y": 51,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -145,
+      "y": 48,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -96,
-      "y": 57,
+      "y": 56,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -146,
-      "y": 62,
+      "x": -145,
+      "y": 53,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -96,
-      "y": 62,
+      "y": 61,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -147,
-      "y": 67,
+      "x": -146,
+      "y": 58,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -97,
-      "y": 67,
+      "y": 66,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -146,
+      "y": 63,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -97,
+      "y": 71,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -147,
+      "y": 68,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -98,
+      "y": 76,
       "kind": "stitch",
       "thread": 2
     },
@@ -848,8 +872,8 @@
       "thread": 2
     },
     {
-      "x": -97,
-      "y": 72,
+      "x": -98,
+      "y": 81,
       "kind": "stitch",
       "thread": 2
     },
@@ -860,8 +884,8 @@
       "thread": 2
     },
     {
-      "x": -98,
-      "y": 77,
+      "x": -99,
+      "y": 86,
       "kind": "stitch",
       "thread": 2
     },
@@ -872,38 +896,14 @@
       "thread": 2
     },
     {
-      "x": -98,
-      "y": 82,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -149,
-      "y": 86,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -99,
-      "y": 86,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -149,
-      "y": 91,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
       "x": -99,
       "y": 91,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -150,
-      "y": 96,
+      "x": -149,
+      "y": 87,
       "kind": "stitch",
       "thread": 2
     },
@@ -915,19 +915,19 @@
     },
     {
       "x": -149,
+      "y": 92,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -100,
       "y": 101,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -99,
-      "y": 101,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -147,
-      "y": 105,
+      "x": -150,
+      "y": 96,
       "kind": "stitch",
       "thread": 2
     },
@@ -938,8 +938,8 @@
       "thread": 2
     },
     {
-      "x": -144,
-      "y": 109,
+      "x": -149,
+      "y": 101,
       "kind": "stitch",
       "thread": 2
     },
@@ -950,362 +950,398 @@
       "thread": 2
     },
     {
-      "x": -141,
-      "y": 114,
+      "x": -147,
+      "y": 105,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -91,
-      "y": 114,
+      "y": 113,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -138,
-      "y": 118,
+      "x": -144,
+      "y": 109,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -88,
-      "y": 118,
+      "y": 117,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -135,
-      "y": 122,
+      "x": -141,
+      "y": 113,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -85,
-      "y": 122,
+      "x": -86,
+      "y": 121,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -133,
-      "y": 126,
+      "x": -139,
+      "y": 117,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -83,
-      "y": 126,
+      "y": 125,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -130,
-      "y": 130,
+      "x": -136,
+      "y": 121,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -80,
-      "y": 130,
+      "y": 129,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -127,
-      "y": 134,
+      "x": -133,
+      "y": 125,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -77,
-      "y": 134,
+      "y": 133,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -124,
-      "y": 138,
+      "x": -131,
+      "y": 129,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -74,
-      "y": 138,
+      "y": 137,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -128,
+      "y": 133,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -72,
+      "y": 141,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -125,
+      "y": 137,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -69,
+      "y": 146,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -122,
-      "y": 142,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -72,
-      "y": 142,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -119,
-      "y": 147,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -69,
-      "y": 147,
-      "kind": "stitch",
-      "thread": 2
-    },
-    {
-      "x": -116,
-      "y": 151,
+      "y": 141,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -66,
-      "y": 151,
+      "y": 150,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -113,
-      "y": 155,
+      "x": -120,
+      "y": 145,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -63,
-      "y": 155,
+      "y": 154,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -111,
-      "y": 159,
+      "x": -117,
+      "y": 149,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -61,
-      "y": 159,
+      "x": -60,
+      "y": 158,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -108,
-      "y": 163,
+      "x": -114,
+      "y": 153,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -58,
-      "y": 163,
+      "x": -57,
+      "y": 162,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -105,
-      "y": 167,
+      "x": -112,
+      "y": 157,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -55,
-      "y": 167,
+      "y": 166,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -102,
-      "y": 171,
+      "x": -109,
+      "y": 161,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -52,
-      "y": 171,
+      "y": 170,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -100,
-      "y": 176,
+      "x": -106,
+      "y": 165,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -50,
-      "y": 176,
+      "x": -49,
+      "y": 174,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -97,
-      "y": 180,
+      "x": -104,
+      "y": 169,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -47,
-      "y": 180,
+      "x": -46,
+      "y": 178,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -94,
-      "y": 184,
+      "x": -101,
+      "y": 174,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -44,
-      "y": 184,
+      "x": -43,
+      "y": 182,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -91,
-      "y": 188,
+      "x": -98,
+      "y": 178,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -41,
-      "y": 188,
+      "y": 186,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -89,
-      "y": 192,
+      "x": -96,
+      "y": 182,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -39,
-      "y": 192,
+      "x": -38,
+      "y": 190,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -86,
-      "y": 196,
+      "x": -93,
+      "y": 186,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -36,
-      "y": 196,
+      "x": -35,
+      "y": 195,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -83,
-      "y": 200,
+      "x": -90,
+      "y": 190,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -33,
-      "y": 200,
+      "x": -32,
+      "y": 199,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -88,
+      "y": 194,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -29,
+      "y": 203,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -85,
+      "y": 198,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -27,
+      "y": 207,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -82,
+      "y": 202,
+      "kind": "stitch",
+      "thread": 2
+    },
+    {
+      "x": -24,
+      "y": 211,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -80,
-      "y": 205,
+      "y": 206,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -30,
-      "y": 205,
+      "x": -21,
+      "y": 215,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -78,
-      "y": 209,
+      "x": -77,
+      "y": 210,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -28,
-      "y": 209,
+      "x": -18,
+      "y": 219,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -75,
-      "y": 213,
+      "x": -74,
+      "y": 214,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -25,
-      "y": 213,
+      "x": -15,
+      "y": 223,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -72,
-      "y": 217,
+      "x": -71,
+      "y": 218,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -22,
-      "y": 217,
+      "x": -12,
+      "y": 227,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -69,
-      "y": 221,
+      "y": 222,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -19,
-      "y": 221,
+      "x": -10,
+      "y": 231,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -67,
-      "y": 225,
+      "x": -66,
+      "y": 226,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -17,
-      "y": 225,
+      "x": -7,
+      "y": 235,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -64,
-      "y": 229,
+      "x": -63,
+      "y": 230,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -14,
-      "y": 229,
+      "x": -4,
+      "y": 240,
       "kind": "stitch",
       "thread": 2
     },
     {
       "x": -61,
-      "y": 233,
+      "y": 234,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -11,
-      "y": 233,
+      "x": -1,
+      "y": 244,
       "kind": "stitch",
       "thread": 2
     },
@@ -1316,20 +1352,20 @@
       "thread": 2
     },
     {
-      "x": -8,
-      "y": 238,
+      "x": 2,
+      "y": 248,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -56,
+      "x": -55,
       "y": 242,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": -6,
-      "y": 242,
+      "x": 4,
+      "y": 252,
       "kind": "stitch",
       "thread": 2
     },
@@ -1340,8 +1376,8 @@
       "thread": 2
     },
     {
-      "x": -3,
-      "y": 246,
+      "x": 7,
+      "y": 256,
       "kind": "stitch",
       "thread": 2
     },
@@ -1352,14 +1388,14 @@
       "thread": 2
     },
     {
-      "x": 0,
-      "y": 250,
+      "x": 10,
+      "y": 260,
       "kind": "stitch",
       "thread": 2
     },
     {
-      "x": 0,
-      "y": 250,
+      "x": 10,
+      "y": 260,
       "kind": "end",
       "thread": 2
     }

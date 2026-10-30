@@ -3,9 +3,14 @@ No machine is controlled. This checks records, positions, commands and extents.
 """
 import json
 import argparse
+from importlib.metadata import version
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import pyembroidery as emb
+
+reader_version = version('pyembroidery')
+if reader_version != '1.5.1':
+    raise SystemExit(f'Expected pyembroidery 1.5.1, found {reader_version}; install the pinned reader before verification')
 
 root = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser()
@@ -35,5 +40,5 @@ for name in ['outline', 'satin', 'patch']:
     records.append({'name': name, 'decoded_records': len(expected), 'stitches': report['stitches'],
                     'jumps': report['jumps'], 'color_changes': report['color_changes'],
                     'positions_equal': True, 'commands_equal': True, 'header_extents_equal': True})
-print(json.dumps({'reader': 'pyembroidery', 'reader_version': '1.5.1', 'cases': records,
+print(json.dumps({'reader': 'pyembroidery', 'reader_version': reader_version, 'cases': records,
                   'physical_machine_test': False}, indent=2))

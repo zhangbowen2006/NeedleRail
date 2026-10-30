@@ -9,16 +9,16 @@
 | 命令 | 实际结果 |
 |---|---|
 | `moon check --target all --deny-warn` | 通过，包括 native 类型检查；不是四目标运行通过 |
-| `moon test --target wasm --deny-warn` | 7 组通过，0 失败 |
-| `moon test --target wasm-gc --deny-warn` | 7 组通过，0 失败 |
-| `moon test --target js --deny-warn` | 7 组通过，0 失败 |
+| `moon test --target wasm --deny-warn` | 11 组通过，0 失败 |
+| `moon test --target wasm-gc --deny-warn` | 11 组通过，0 失败 |
+| `moon test --target js --deny-warn` | 11 组通过，0 失败 |
 | `moon build --target wasm --deny-warn` | 通过 |
 | `moon build --target wasm-gc --deny-warn` | 通过 |
 | `moon build --target js --release --deny-warn` | 通过，生成 bridge.js 和 cmd/main |
 | `moon test --target native --deny-warn` | 未完成；工具报告缺少 MSVC C++ 工具与 Windows SDK，没有把它写成通过 |
-| `node --test tests/*.test.mjs` | 4 组通过，0 失败，覆盖三个文件工作流、范围约束、拒绝覆盖与无效输入 |
+| `node --test tests/*.test.mjs` | 10 组通过，0 失败，覆盖三个文件工作流、范围约束、拒绝覆盖与无效输入 |
 | `node scripts/cli.mjs examples/outline.json outputs/outline` | 生成 132 个缝制针位、6 跳针、1 换色；140 条 DST 记录 |
-| `node scripts/cli.mjs examples/satin.json outputs/satin` | 生成 222 个缝制针位、3 跳针、0 换色；226 条记录 |
+| `node scripts/cli.mjs examples/satin.json outputs/satin` | 生成 228 个缝制针位、3 跳针、0 换色；232 条记录 |
 | `node scripts/cli.mjs examples/patch.json outputs/patch` | 生成 2077 个缝制针位、136 跳针、1 换色；2215 条记录 |
 | `python scripts/verify_dst.py`，环境含 pyembroidery 1.5.1 | 三个案例全部位置、命令、记录数和头部边界一致；SVG 通过 XML 解析，报告见 dst-verification.json |
 | `moon publish --dry-run` | 失败，Registry login is required；不代表包已发布，不能用猜测的包链接作为发布证据 |
@@ -34,3 +34,5 @@ Node 测试将当前编译结果与已提交 DST/JSON/SVG 逐项比对。CI 将�
 局限：XML 解析不是完整视觉审查；外部 reader 通过不是通用机型认证。未真实刺绣、未验证剪线行为与布料成品、未做跨平台性能基准或用户部署。Linux Native 通过不代表 Windows Native 本机运行通过。
 
 GitHub 身份、公开默认分支与 CI 已核验。Mooncakes 仍需本人在终端完成登录，包页面尚未发布；报名次数、资格和人工申报未验证。
+
+最新子代理复核整合后，重新执行上述三后端测试（各11组）、Node测试（10组）及外部解码全部通过，详见 REVIEW-20261030.md。此前远端CI链接对应旧版7组测试，不代表新提交已经远端通过；新提交须查看其关联Actions结果。

@@ -49,6 +49,11 @@ pub fn fill(
     if ring.length() < 3 || ring.length() > 512 {
       return Err("each ring requires 3..512 vertices without repeated endpoint")
     }
+    for p in ring {
+      if !valid_point(p) {
+        return Err("coordinate exceeds 10000 units")
+      }
+    }
     let mut area = 0.0
     for i = 0; i < ring.length(); i = i + 1 {
       let a = ring[i]

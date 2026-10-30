@@ -14,8 +14,8 @@
     },
     {
       "name": "satin",
-      "decoded_records": 226,
-      "stitches": 222,
+      "decoded_records": 232,
+      "stitches": 228,
       "jumps": 3,
       "color_changes": 0,
       "positions_equal": true,
